@@ -1,0 +1,35 @@
+Verb (alias)	Action	Synonyms to avoid
+Add (a)	Adds a resource to a container, or attaches an item to another item. For example, the Add-Content cmdlet adds content to a file. This verb is paired with Remove.	Append, Attach, Concatenate, Insert
+Clear (cl)	Removes all the resources from a container but does not delete the container. For example, the Clear-Content cmdlet removes the contents of a file but does not delete the file.	Flush, Erase, Release, Unmark, Unset, Nullify
+Close (cs)	Changes the state of a resource to make it inaccessible, unavailable, or unusable. This verb is paired with Open.	
+Copy (cp)	Copies a resource to another name or to another container. For example, the Copy-Item cmdlet copies an item (such as a file) from one location in the data store to another location.	Duplicate, Clone, Replicate, Sync
+Enter (et)	Specifies an action that allows the user to move into a resource. For example, the Enter-PSSession cmdlet places the user in an interactive session. This verb is paired with Exit.	Push, Into
+Exit (ex)	Sets the current environment or context to the most recently used context. For example, the Exit-PSSession cmdlet places the user in the session that was used to start the interactive session. This verb is paired with Enter.	Pop, Out
+Find (fd)	Looks for an object in a container that is unknown, implied, optional, or specified.	Search
+Format (f)	Arranges objects in a specified form or layout	
+Get (g)	Specifies an action that retrieves a resource. This verb is paired with Set.	Read, Open, Cat, Type, Dir, Obtain, Dump, Acquire, Examine, Find, Search
+Hide (h)	Makes a resource undetectable. For example, a cmdlet whose name includes the Hide verb might conceal a service from a user. This verb is paired with Show.	Block
+Join (j)	Combines resources into one resource. For example, the Join-Path cmdlet combines a path with one of its child paths to create a single path. This verb is paired with Split.	Combine, Unite, Connect, Associate
+Lock (lk)	Secures a resource. This verb is paired with Unlock.	Restrict, Secure
+Move (m)	Moves a resource from one location to another. For example, the Move-Item cmdlet moves an item from one location in the data store to another location.	Transfer, Name, Migrate
+New (n)	Creates a resource. (The Set verb can also be used when creating a resource that includes data, such as the Set-Variable cmdlet.)	Create, Generate, Build, Make, Allocate
+Open (op)	Changes the state of a resource to make it accessible, available, or usable. This verb is paired with Close.	
+Optimize (om)	Increases the effectiveness of a resource.	
+Pop (pop)	Removes an item from the top of a stack. For example, the Pop-Location cmdlet changes the current location to the location that was most recently pushed onto the stack.	
+Push (pu)	Adds an item to the top of a stack. For example, the Push-Location cmdlet pushes the current location onto the stack.	
+Redo (re)	Resets a resource to the state that was undone.	
+Remove (r)	Deletes a resource from a container. For example, the Remove-Variable cmdlet deletes a variable and its value. This verb is paired with Add.	Clear, Cut, Dispose, Discard, Erase
+Rename (rn)	Changes the name of a resource. For example, the Rename-Item cmdlet, which is used to access stored data, changes the name of an item in the data store.	Change
+Reset (rs)	Sets a resource back to its original state.	
+Resize(rz)	Changes the size of a resource.	
+Search (sr)	Creates a reference to a resource in a container.	Find, Locate
+Select (sc)	Locates a resource in a container. For example, the Select-String cmdlet finds text in strings and files.	Find, Locate
+Set (s)	Replaces data on an existing resource or creates a resource that contains some data. For example, the Set-Date cmdlet changes the system time on the local computer. (The New verb can also be used to create a resource.) This verb is paired with Get.	Write, Reset, Assign, Configure
+Show (sh)	Makes a resource visible to the user. This verb is paired with Hide.	Display, Produce
+Skip (sk)	Bypasses one or more resources or points in a sequence.	Bypass, Jump
+Split (sl)	Separates parts of a resource. For example, the Split-Path cmdlet returns different parts of a path. This verb is paired with Join.	Separate
+Step (st)	Moves to the next point or resource in a sequence.	
+Switch (sw)	Specifies an action that alternates between two resources, such as to change between two locations, responsibilities, or states.	
+Undo (un)	Sets a resource to its previous state.	
+Unlock (uk)	Releases a resource that was locked. This verb is paired with Lock.	Release, Unrestrict, Unsecure
+Watch (wc)	Continually inspects or monitors a resource for changes.	
