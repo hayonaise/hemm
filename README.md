@@ -1,7 +1,7 @@
 
 # 🛠️ Hay-Ellis Master Module
 
-A simple powershell module that can be used to manage AD, Fileshares and all other SYSADMIN tasks.
+[A simple powershell module that can be used to manage AD, Fileshares and all other SYSADMIN tasks.](https://github.com/hayonaise/hemm)
 
 ---
 
@@ -15,7 +15,7 @@ This module is broken down into a few key areas:
 - 📁 **File Shares**  
   List shares, audit permissions, clean up stale data — the usual mess that nobody wants to do manually.
 
-- ⚙️ **Netowork**  
+- ⚙️ **Network**  
   Various tools and scripts used for accessing and updating network tasks.
 
 ---
@@ -25,8 +25,6 @@ This module is broken down into a few key areas:
 Clone the repo and import the module:
 ```powershell
 git clone https://github.com/hayonaise/hemm
-
-## 📁 Module Structure
 
 ## 🛡️ Notes
 
