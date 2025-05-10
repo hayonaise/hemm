@@ -1,0 +1,40 @@
+
+# Ignore PowerShell generated/temporary files
+*.ps1~  
+*.psm1~  
+*.psd1~  
+*.bak  
+*.log  
+*.tmp  
+*.swp
+
+# Ignore compiled output (just in case)
+*.exe  
+*.dll  
+*.obj  
+*.pdb  
+
+# Ignore system files
+.DS_Store  
+Thumbs.db  
+desktop.ini
+
+# Ignore secure credential files
+/common/*.secxml
+/common/*.xml
+
+# Ignore your VS Code settings (optional)
+.vscode/
+
+# Ignore Git metadata conflicts
+*.orig
+
+# Ignore test data or local notes
+*.notes.txt  
+*.test.ps1  
+
+# Ignore anything secret accidentally stored
+secrets.*  
+*.key  
+*.pem  
+*.crt  

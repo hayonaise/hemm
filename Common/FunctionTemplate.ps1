@@ -28,7 +28,7 @@
     Version  : 1.0  
     License  : MIT  
     Change History:
-        YYYY-MM-DD – Initial release
+        YYYY-MM-DD : Initial release
 #>
 
 function Get-Something {
